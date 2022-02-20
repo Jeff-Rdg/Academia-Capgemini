@@ -27,8 +27,9 @@ public class Questao03 {
         String testeAnagrama = ler.nextLine();
         ler.close();
         
-        //String testeAnagrama = "ifailuhkqq"; - teste 
-        //dividir a string em substrings
+        //String testeAnagrama = "ifailuhkqq"; - teste
+        
+        //dividir a string em substrings e adicionando cada uma na Array
         List<String> subStrings = new ArrayList<>();
         
         for(int i = 1;i < testeAnagrama.length(); i++){
@@ -40,7 +41,7 @@ public class Questao03 {
         
         //System.out.println(subStrings);
         
-        //Substrings separadas, hora de ordenar
+        //hora de ordenar o Array, criando outra ArrayList
         List<String> listaOrdenada = new ArrayList<>();
         for(String palavrasOrdenadas : subStrings){
             //converter a string em array de char
