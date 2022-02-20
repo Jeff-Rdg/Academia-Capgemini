@@ -1,5 +1,5 @@
-# Academia-Capgemini
-Resolução das atividades usando a linguagem Java
+<h1 align="center">Desafio de programação </h1>
 
-As atividades foram resolvidas na IDE NetBeans 12.6
+<p align="center"> Resolução das atividades do Desafio de programação para a Academia Capgemini.</p>
+<p align="center">🚀 Todas as atividades foram resolvidas com a linguagem de Programação Java.</p>
 
