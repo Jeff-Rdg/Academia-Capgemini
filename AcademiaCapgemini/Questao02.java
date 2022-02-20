@@ -19,6 +19,7 @@ Contém no mínimo 1 letra em maiúsculo.
 Contém no mínimo 1 caractere especial. 
 Os caracteres especiais são: !@#$%^&*()-+*/
 public class Questao02 {
+    //método para validar se todos os requisitos minimos para a senha estão de acordo
     public static boolean validarSenha(String senha){
         if(senha.length()< 6){
             return false;
@@ -53,7 +54,7 @@ public class Questao02 {
             nome = ler.nextLine();
             System.out.print(" Informe sua senha: ");
             senha = ler.nextLine();
-            ler.close();
+            
              
             if(validarSenha(senha) == true){
                 System.out.println(" Senha cadastrada com sucesso");

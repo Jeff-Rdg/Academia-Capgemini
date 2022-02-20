@@ -27,7 +27,7 @@ public class Questao03 {
         String testeAnagrama = ler.nextLine();
         ler.close();
         
-        //String testeAnagrama = "ifailuhkqq";
+        //String testeAnagrama = "ifailuhkqq"; - teste 
         //dividir a string em substrings
         List<String> subStrings = new ArrayList<>();
         

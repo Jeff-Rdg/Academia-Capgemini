@@ -15,12 +15,13 @@ A ultima linha nao deve conter nenhum espaco.
 */
 public class Questao01 {
     public static void main(String[] args) {
-        Scanner ler = new Scanner(System.in);
-        List<String> degraus = new ArrayList<>();
-        
-        System.out.println("Digite a quantidade de Degraus: ");
-        int quantDegraus = ler.nextInt();
-        ler.close();
+        List<String> degraus;
+        int quantDegraus;
+        try (Scanner ler = new Scanner(System.in)) {
+            degraus = new ArrayList<>();
+            System.out.println("Digite a quantidade de Degraus: ");
+            quantDegraus = ler.nextInt();
+        }
         
         for (int i = 0; i < quantDegraus; i++) {
             degraus.add(" ".repeat(quantDegraus - i) + "*".repeat(i + 1));//adiciona os itens a lista
