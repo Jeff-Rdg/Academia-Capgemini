@@ -9,10 +9,10 @@ import java.util.ArrayList;
  *
  * @author jefferson
  */
-//Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espacos.
-//A base e altura da escada devem ser iguais ao valor de n.
-//A ultima linha nao deve conter nenhum espaco.
-
+/*Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espacos.
+A base e altura da escada devem ser iguais ao valor de n.
+A ultima linha nao deve conter nenhum espaco.
+*/
 public class Questao01 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
@@ -23,8 +23,7 @@ public class Questao01 {
         ler.close();
         
         for (int i = 0; i < quantDegraus; i++) {
-            degraus.add(" ".repeat(quantDegraus - i) + "*".repeat(i + 1));
-//            degraus.add("*".repeat(i + 1) + " ".repeat(quantDegraus - i));
+            degraus.add(" ".repeat(quantDegraus - i) + "*".repeat(i + 1));//adiciona os itens a lista
         }
         for(String degrau: degraus){
             System.out.println(degrau);
